@@ -1,9 +1,9 @@
 {
-	"name": "snippet-sample",
-	"displayName": "Snippet Sample",
-	"description": "Snippet Sample",
+	"name": "adoc-snippets",
+	"displayName": "ASCIIDoc Snippets",
+	"description": "Snippets for AsciiDoc for PDF and HTML",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"publisher": "tmichett@redhat.com",
 	"engines": {
 		"vscode": "^1.28.0"
 	},
@@ -13,7 +13,7 @@
 	"contributes": {
 		"snippets": [
 			{
-				"language": "javascript",
+				"language": "asciidoc",
 				"path": "./snippets.json"
 			}
 		]
