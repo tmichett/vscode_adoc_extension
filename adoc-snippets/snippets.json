@@ -1,10 +1,199 @@
 {
-	"Print to console": {
-		"prefix": "log",
+
+	// Snippets for Travis's AsciiDoc Template
+	// Used for generating workshops, notes, and webinars
+	
+		"ASCIIDoc Table": {
+			"scope": "asciidoc,adoc",
+			"prefix": "adoc_table",
+			"body": [
+			   ".TABLE NAME",
+			   "[cols='1.0a,1.0a,1.0a', options='header']",
+			   "|===",
+			   "|  Machine name               | IP addresses   | Role",
+			   "| bastion.lab.example.com     | 172.25.250.254 | Router link VMs to central servers",
+				 "|===",
+			],
+			"description": "Table",
+		},
+	
+		"ASCIIDoc Bash Source": {
+			"scope": "asciidoc,adoc",
+			"prefix": "adoc_source",
+			"body": [
+			   "[source,bash]",
+			   "----",
+			   "",
+			   "----",
+			],
+			"description": "Source Block",
+	},
+	
+	"ASCIIDoc YAML Source": {
+		"scope": "asciidoc,adoc",
+		"prefix": "adoc_yml_source",
 		"body": [
-			"console.log('$1');",
-			"$2"
+		   "[source,yml]",
+		   "----",
+		   "",
+		   "----",
 		],
-		"description": "Log output to console"
+		"description": "YAML Source Block",
+	},
+	
+	"Note Admonition Box": {
+		"scope": "asciidoc, adoc",
+		"prefix": "note",
+		"body": [
+		   "[NOTE]",
+		   "======",
+		   "Note Text Goes HERE",
+		   "======",
+		],
+		"description": "Note Box"
+	},
+	
+	
+	"Warning Admonition Box": {
+		"scope": "asciidoc, adoc",
+		"prefix": "warning",
+		"body": [
+		   "[WARNING]",
+		   "======",
+		   "Warning Text Goes HERE",
+		   "======",
+		],
+		"description": "Warning Box"
+	},
+	
+	
+	"Tip Admonition Box": {
+		"scope": "asciidoc, adoc",
+		"prefix": "tip",
+		"body": [
+		   "[TIP]",
+		   "======",
+		   "TIP Text Goes HERE",
+		   "======",
+		],
+		"description": "Tip Box"
+	},
+	
+	
+	"Caution Admonition Box": {
+		"scope": "asciidoc, adoc",
+		"prefix": "caution",
+		"body": [
+		   "[CAUTION]",
+		   "======",
+		   "Caution Text Goes HERE",
+		   "======",
+		],
+		"description": "Caution Box"
+	},
+	
+	"Important Admonition Box": {
+		"scope": "asciidoc, adoc",
+		"prefix": "important",
+		"body": [
+		   "[IMPORTANT]",
+		   "======",
+		   "IMPORTANT Text Goes HERE",
+		   "======",
+		],
+		"description": "Important Box"
+	},
+	
+	
+	"Image Template": {
+		"scope": "asciidoc",
+		"prefix": "image",
+		"body": [
+		   "image::AnsibleTower-Classroom-Architecture.png[title='DO447 Classroom Layout', align='center']"
+		],
+		"description": "Important Templage"
+	},
+	
+	
+	
+	// Snippets for GLS AsciiDoc Template
+	// Used for generating XML Files for Flamel and GLS Course Guides
+	
+	"GLS Docbook Important": {
+		"scope": "asciidoc, adoc_source",
+		"prefix": "gls_important",
+		"body": [
+		   "[IMPORTANT]",
+		   "====",
+		   "IMPORTANT Text Goes HERE",
+		   "====",
+		],
+		"description": "GLS Important Box"
+	},
+	
+	"GLS Docbook Note": {
+	   "scope": "asciidoc, adoc",
+	   "prefix": "gls_note",
+	   "body": [
+		  "[NOTE]",
+		  "====",
+		  "NOTE Text Goes HERE",
+		  "====",
+	   ],
+	   "description": "GLS Note Box"
+	},
+	
+	"GLS Dockbook Warning": {
+	   "scope": "asciidoc, adoc",
+	   "prefix": "gls_warn",
+	   "body": [
+		  "[WARNING]"
+		  "===="
+		  "Warning Text Goes HERE"
+		  "====",
+	   ],
+	   "description": "GLS Warning Box"
+	},
+	
+	
+	"GLS Docbook References": {
+	   "scope": "asciidoc, adoc",
+	   "prefix": "gls_ref",
+	   "body": [
+		  "[role="References"]",
+		  "[NOTE]",
+		  "====",
+		  "GLS Reference Text Goes HERE",
+		  "====",
+	   ],
+	   "description": "GLS Reference Box"
+	},
+	
+	
+	"GLS Dockbook Table": {
+	   "scope": "asciidoc, adoc",
+	   "prefix": "gls_table",
+	   "body": [
+		  ".TABLE NAME",
+		  "[cols='1.0a,1.0a,1.0a', options='header']",
+		  "|===",
+		  "|  Machine name               | IP addresses   | Role",
+		  "| bastion.lab.example.com     | 172.25.250.254 | Router link VMs to central servers",
+			"|==="
+	   ],
+	   "description": "GLS Table"
+	},
+	
+	"GLS Docbook Source ": {
+	   "scope": "asciidoc, adoc",
+	   "prefix": "gls_source",
+	   "body": [
+		  "[subs=+quotes]",
+		  "----",
+		  "",
+		  "----",
+	   ],
+	   "description": "Source Block for GLS"
 	}
-}
+	
+	}
