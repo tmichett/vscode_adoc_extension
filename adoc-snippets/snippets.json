@@ -43,7 +43,7 @@
 	
 	"Note Admonition Box": {
 		"scope": "asciidoc, adoc",
-		"prefix": "note",
+		"prefix": "adoc_note",
 		"body": [
 		   "[NOTE]",
 		   "======",
@@ -56,7 +56,7 @@
 	
 	"Warning Admonition Box": {
 		"scope": "asciidoc, adoc",
-		"prefix": "warning",
+		"prefix": "adoc_warning",
 		"body": [
 		   "[WARNING]",
 		   "======",
@@ -69,7 +69,7 @@
 	
 	"Tip Admonition Box": {
 		"scope": "asciidoc, adoc",
-		"prefix": "tip",
+		"prefix": "adoc_tip",
 		"body": [
 		   "[TIP]",
 		   "======",
@@ -82,7 +82,7 @@
 	
 	"Caution Admonition Box": {
 		"scope": "asciidoc, adoc",
-		"prefix": "caution",
+		"prefix": "adoc_caution",
 		"body": [
 		   "[CAUTION]",
 		   "======",
@@ -94,7 +94,7 @@
 	
 	"Important Admonition Box": {
 		"scope": "asciidoc, adoc",
-		"prefix": "important",
+		"prefix": "adoc_important",
 		"body": [
 		   "[IMPORTANT]",
 		   "======",
@@ -107,14 +107,31 @@
 	
 	"Image Template": {
 		"scope": "asciidoc",
-		"prefix": "image",
+		"prefix": "adoc_image",
 		"body": [
 		   "image::AnsibleTower-Classroom-Architecture.png[title='DO447 Classroom Layout', align='center']"
 		],
 		"description": "Important Templage"
 	},
 	
-	
+	"Github Formatting": {
+		"scope": "asciidoc",
+		"prefix": "adoc_gh_doc",
+		"body": [
+			"ifndef::env-github[:icons: font]",
+			"ifdef::env-github[]",
+			":status:",
+			":outfilesuffix: .adoc",
+			":caution-caption: :fire:",
+			":important-caption: :exclamation:",
+			":note-caption: :paperclip:",
+			":tip-caption: :bulb:",
+			":warning-caption: :warning:",
+			"endif::[]",
+		],
+		"description": "Github Documentation Formatting"
+	},	
+
 	
 	// Snippets for GLS AsciiDoc Template
 	// Used for generating XML Files for Flamel and GLS Course Guides

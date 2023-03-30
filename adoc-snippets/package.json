@@ -2,8 +2,9 @@
 	"name": "adoc-snippets",
 	"displayName": "ASCIIDoc Snippets",
 	"description": "Snippets for AsciiDoc for PDF and HTML",
-	"version": "0.0.1",
-	"publisher": "tmichett@redhat.com",
+	"version": "0.0.5",
+	"publisher": "TravisMichette",
+	"repository": "https://github.com/tmichett/vscode_adoc_extension",
 	"engines": {
 		"vscode": "^1.28.0"
 	},

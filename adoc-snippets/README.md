@@ -1,6 +1,6 @@
-# Snippet Sample
+# AsciiDoc Code Snippets
 
-This is the source code for [Snippet Guide](https://code.visualstudio.com/api/language-extensions/snippet-guide).
+The project for these snippets is being tracked in Github [ADoc Github Snippets Project](https://code.visualstudio.com/api/language-extensions/snippet-guide).
 
 ## VS Code API
 
@@ -8,7 +8,13 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 - [`contributes.snippets`](https://code.visualstudio.com/api/references/contribution-points#contributes.snippets)
 
-## Running the Sample
+## Using the ASCIIDoc Snippets
 
-- Run the `Run Extension` target in the Debug View
-- When you type `log` in a JavaScript file, you would see the snippet `Print to console`.
+- Install the `Extension` from the Marketplace
+- Use (CTRL + Space) Windows/Linux or (Control + Space) MacOS to bring up the snippets selection.
+- Choose snippet you want to use.
+
+
+### Snippets Purpose
+
+The snippets provided here are to easily write and author Asciidoc books. These snippets are for direct use in the [Github Technical Documentation Project](https://github.com/tmichett/Asciidoc_Template) that goes with my Asciidoc Template.
