@@ -25,6 +25,7 @@ The snippets provided here are to easily write and author Asciidoc books. These 
 **adoc_source**
 
 ```asciidoc
+.Source Box Caption
 [source,bash]
 ----
 # cat /etc/redhat-release
