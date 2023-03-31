@@ -18,3 +18,20 @@ The project for these snippets is being tracked in Github [ADoc Github Snippets 
 ### Snippets Purpose
 
 The snippets provided here are to easily write and author Asciidoc books. These snippets are for direct use in the [Github Technical Documentation Project](https://github.com/tmichett/Asciidoc_Template) that goes with my Asciidoc Template.
+
+
+## Snippet Previews
+
+**adoc_source**
+
+```asciidoc
+[source,bash]
+----
+# cat /etc/redhat-release
+Red Hat Enterprise Linux Server release 7.9 (Maipo)
+----
+```
+
+![ASCIIDoc Source Box](images/adoc_source.png)
+
+
