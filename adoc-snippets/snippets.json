@@ -21,6 +21,7 @@
 			"scope": "asciidoc,adoc",
 			"prefix": "adoc_source",
 			"body": [
+				".Source Caption",
 			   "[source,bash]",
 			   "----",
 			   "",
@@ -33,6 +34,7 @@
 		"scope": "asciidoc,adoc",
 		"prefix": "adoc_yml_source",
 		"body": [
+		   ".Source Caption",
 		   "[source,yml]",
 		   "----",
 		   "",
